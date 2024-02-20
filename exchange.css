@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: verdana;
+}
+
+body img{
+    max-width: 400px;
+    display: block;
+    margin: 15vh auto 20px auto;
+}
+
+body>h1,body>p{
+    margin: 10px 0;
+    text-align: center;
+}
+
+body>h1{
+    color:darkcyan;
+}
+
+.container{
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.container button{
+    border: 0;
+    outline: 0;
+    background: skyblue;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 17px;
+}
+
+.container select,input{
+    padding: 5px;
+    margin: 5px 0;
+    font-size: 17px;
+}
+
+.container input {
+    width: 80%;
+}
+
+.swap{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.swap p{
+    color: darkcyan;
+}
+
